@@ -107,7 +107,7 @@ If only a few samples are being processed this will be faster. The Qiagen PCR cl
 - [ ] Drop off samples in folder outside labs on 10th floor HSW.
 
 ***
-## 7. Cleaning and interpretting sequence
+## 8. Cleaning and interpretting sequence
 - [ ] When sequence results are available (usually before 8am the following morning), download **.ab1** files.
 - [ ] Using [4 Peaks](https://nucleobytes.com/4peaks/index.html) (mac) or [FinchTV](http://jblseqdat.bioc.cam.ac.uk/gnmweb/download/soft/FinchTV_1.4/doc/) (windows) trim trace to remove any Ns, resolving them by manually inspecting the electropherogram where possible.
 - [ ] Overlap sequences using a program such as [CAP3](http://doua.prabi.fr/software/cap3).
