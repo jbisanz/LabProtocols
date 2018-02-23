@@ -1,33 +1,34 @@
+#v1.1
 library(tidyverse)
 library(readxl)
 library(reshape2)
 ###########################################################################
 # Set the following variables for your study:
 
-InputXLSX="/Users/jbisanz/Research/MHGEP/MGHEP_16S/MGHEP_Template_june8.xlsx"
-OutputLocation="~/Desktop/"
-ProjectName="MGHEP"
+InputXLSX="~/Desktop/blanksheet/Run_Template (1).xlsx"
+OutputLocation="~/Desktop/blanksheet"
+ProjectName="Blank_Run"
 Description="V4Amplicons"
 
 ###########################################################################
 #Sample sheet header, only change if you know what you are doing
 #Sample sheet header, only change if you know what you are doing
 Header=paste0("[Header]
-              IEMFileVersion,4
-              Investigator Name,JBisanz
-              Experiment Name,",ProjectName,"
-              Date,5/22/2017
-              Workflow,GenerateFASTQ
-              Application,FASTQ Only
-              Assay,TruSeq HT
-              Description,Pilot run of New Barcode Strategy-
-              Chemistry,Amplicon\n
-              [Reads]
-              270
-              270\n
-              [Settings]
-              ReverseComplement,0\n
-              [Data]")
+IEMFileVersion,4
+Investigator Name,JBisanz
+Experiment Name,",ProjectName,"
+Date,5/22/2017
+Workflow,GenerateFASTQ
+Application,FASTQ Only
+Assay,TruSeq HT
+Description,Pilot run of New Barcode Strategy-
+Chemistry,Amplicon\n
+[Reads]
+270
+270\n
+[Settings]
+ReverseComplement,0\n
+[Data]")
 
 
 
@@ -106,7 +107,7 @@ SampleSheet<-SampleSheet[,c("Sample_ID", "Sample_Name","Sample_Plate","Sample_We
 if(sum(duplicated(SampleSheet$Sample_ID))!=0){stop(paste("There is a duplicated Sample Name: ", paste(SampleSheet[duplicated(SampleSheet$Sample_ID),], collapse = " ")))}
 
 #Now remove all emptys
-SampleSheet<-SampleSheet[-grep("Empty_Plate", SampleSheet$Sample_ID),]
+#SampleSheet<-SampleSheet[-grep("Empty_Plate", SampleSheet$Sample_ID),]
 
 write.table(SampleSheet, "tmpsamplesheet.csv", sep=",", quote=F, row.names = F)
 
