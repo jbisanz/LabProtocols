@@ -1,5 +1,5 @@
 # Pure culture isolate DNA extraction and 16S rRNA sequencing protocol
-## Version 1.0: January 23, 2018
+## Version 1.1: 14 Aug, 2018
 
 ***
 
@@ -53,7 +53,7 @@ Amplitaq Gold | 2x | 1x | 25 µL
 8F | 2µM | 400 nM | 10 µL
 1543R | 2µM | 400nM | 10 µL
 gDNA | variable | variable | 5µL
-**Total** | | | **40 µL**
+**Total** | | | **50 µL**
 
 ##### Table 4.2 PCR Cycles
 Cycle |	Temperature (˚C)  | Time
