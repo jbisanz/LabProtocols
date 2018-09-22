@@ -1,5 +1,5 @@
 # Protocol for qPCR of the 16S rRNA gene for microbe detection in germ-free animals and/or quantification
-#### Version 0.99 17 May 2018 J Bisanz incomplete
+#### Version 0.991 21 sep 2018 J Bisanz incomplete
 ***
 
 # Background
@@ -15,7 +15,7 @@ Checking the germ-free status of animals or quantifying the bacterial numbers in
 - [ ] 384 Plates for qPCR (Biorad #HSP3865)
 - [ ] Optically clear Plate Seals (Biorad Microseal ‘B’ #MSB1001)
 - [ ] 10x Assay mix (prepare 2µM of each oligo below in nuclease-free water)
-- [ ] 10-fold dilution series of gDNA (from any bacteria). Use the QuBit DNA concentration to calculate 16S copy number based on [genome size to genome copy number](http://nebiocalculator.neb.com/#!/dsdnaamt) and [rRNA copy number](https://rrndb.umms.med.umich.edu/). For example: 1ng of <i>E. lenta</i> DSM 2243 DNA ~ 2.7E5 genome copies and the 16S rRNA copy number is 3, so the first point on a 10-fold dilution series prepared from 10ng/µL gDNA is 8.1 16S rRNA copies/µL.
+- [ ] 10-fold dilution series of gDNA (from any bacteria). Use the QuBit DNA concentration to calculate 16S copy number based on [genome size to genome copy number](http://nebiocalculator.neb.com/#!/dsdnaamt) and [rRNA copy number](https://rrndb.umms.med.umich.edu/). For example: 1ng of <i>E. lenta</i> DSM 2243 DNA ~ 2.7E5 genome copies and the 16S rRNA copy number is 3, so the first point on a 10-fold dilution series prepared from 10ng/µL gDNA is 8.1E5 16S rRNA copies/µL.
 
 #### Oligos
 |Oligo|Sequence|Stock [µM]|Working [µM]|Final [nM]|
