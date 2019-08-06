@@ -15,7 +15,7 @@ This protocol is intended for the identification of pure culture isolates from a
 - [ ] Waterbath/heatblock/PCR thermocycler capable of 56˚C and 100˚C
 - [ ] Amplitaq Gold 360 Master Mix (Life Tech/Thermofisher 4398881)
 - [ ] 2µM 8F (pA) primer (5-AGAGTTTGATCCTGGCTCAG-3)
-- [ ] 2µM 1543R (pH) primer (5- AAGGAGGTGATCCAGCCGCA-3)
+- [ ] 2µM 1542R (pH) primer (5- AAGGAGGTGATCCAGCCGCA-3)
 - [ ] Purelink PCR purification kit (Life Technologies #K3100-01; or Qiagen equivalent)
 - [ ] (optional) 2µM 515F primer (5-GTGYCAGCMGCCGCGGTAA-3)
 - [ ] (optional) 2µM 806RB primer (5-GGACTACNVGGGTWTCTAAT-3)
@@ -51,7 +51,7 @@ Component	| Stock Concentration | Final Concentration | per 50µL rxn
 ----------|---------------------|---------------------|-------------
 Amplitaq Gold | 2x | 1x | 25 µL
 8F | 2µM | 400 nM | 10 µL
-1543R | 2µM | 400nM | 10 µL
+1542R | 2µM | 400nM | 10 µL
 gDNA | variable | variable | 5µL
 **Total** | | | **50 µL**
 
@@ -77,10 +77,11 @@ This protocol works better for a large number of samples being processed.
 - [ ] Keeping tubes on magnetic rack, remove supernatant and replace with 200 µL fresh 70% ethanol.
 - [ ] Keeping tubes on magnetic rack, remove supernatant and replace with 200 µL fresh 70% ethanol.
 - [ ] Keeping tubes on magnetic rack, remove supernatant.
+- [ ] Pop spin to bring down any ethanol on the sides. Capture on stand.
 - [ ] Use 10µL pipette to remove any trace EtOH on bottom of rack.
 - [ ] Air dry ~10 min.
-- [ ] Add 30 µL water and pipette to mix.
-- [ ] Remove 25 µL to fresh tube and discard bead tubes.
+- [ ] Add 30 µL water and pipette to mix. This step elutes the DNA off the beads. Capture on magnetic rack ~2-5 minutes.
+- [ ] Remove 25 µL of eluted DNA to fresh tube and discard bead tubes.
 
 
 #### Option B: Purelink PCR cleanup
