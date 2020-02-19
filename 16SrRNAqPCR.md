@@ -1,5 +1,5 @@
 # Protocol for qPCR of the 16S rRNA gene for microbe detection in germ-free animals and/or quantification
-#### Version 0.991 21 sep 2018 J Bisanz incomplete
+#### Version 0.992 19 Feb 2020 J Bisanz incomplete
 ***
 
 # Background
@@ -22,9 +22,7 @@ Checking the germ-free status of animals or quantifying the bacterial numbers in
 |-|-|-|-|-|
 |891F|TGGAGCATGTGGTTTAATTCGA|100|2|200|
 |1003R|TGCGGGACTTAACCCAACA|100|2|200|
-|1002P|[Cy5]CACGAGCTGACGACARCCATGCA[BHQ3]*|100|2|200|
-
-<i>* Currently our probe is labelled with Cy5 but reorder with FAM as it will be cheaper and may have better signal</i>
+|1002P|	 	[6FAM]CACGAGCTGACGACARCCATGCA[BHQ1]|100|2|200|
 
 ***
 
