@@ -44,6 +44,7 @@ microcentrifuge tube. This is optional and supernatant can be used directly for 
 
 - [ ] Prepare aa master mix for PCR as outlined in Table 4.1.
 - [ ] Add 5 µL of gDNA for a total reaction volume of 50 µL. Be sure to include a reaction with 5 µL of H2O as no template control (NTC).
+- [ ] Pop spin to remove any air bubbles.
 - [ ] Run the PCR using the PCR cycle parameters indicated in Table 4.2
 
 ##### Table 4.1 PCR Master Mix
@@ -85,7 +86,7 @@ This protocol works better for a large number of samples being processed.
 
 
 #### Option B: Purelink PCR cleanup
-If only a few samples are being processed this will be faster. The Qiagen PCR cleanup kit can be used interchangably with the same protocol and volumes.
+If only a few samples are being processed this will be faster. The Qiagen PCR cleanup kit can be used interchangeably with the same protocol and volumes.
 - [ ] Add 200 µL of buffer B2 to 50 µL of the reaction (4 volumes).
 - [ ] Transfer 250 µL of the mixture to a spin column and centrifuge at maximum speed for 1 minute.
 - [ ] Discard flow through and add 650 µL of wash buffer W1. Centrifuge at maximum speed for 1 minute.
@@ -96,19 +97,19 @@ If only a few samples are being processed this will be faster. The Qiagen PCR cl
 
 ***
 ## 6. QC
-- [ ] Use a nanodrop or qubit to quantify products as well as NTC. Yeild per this protocol should yeild ~20-40 ng/µL product with <2 ng/µL in the NTC.
+- [ ] Use a nanodrop or qubit to quantify products as well as NTC. Yield per this protocol should yield ~20-40 ng/µL product with <2 ng/µL in the NTC.
 - [ ] Dilute PCR products to 10 ng/µL
 - [ ] (optional) Prepare and run a 1% agarose gel using TAE or TBE buffer using 10 µL of PCR reaction. Confirm presence of ~1,500 bp band and the absence of product in the NTC.
 
 ***
 ## 7. Sequencing (GeneWiz)
 *GeneWiz requests sequencing reactions in strip tubes. Each product must be sequenced 2x for the full length 16S gene and thus prepare two sequencing reactions for each product. 8F and 1543R can be used for sequencing, alternatively 515F and 806R can be used to sequence out from the center of the product which might give better recovery of the ends.
-- [ ] For each product, plate 5 µL of 10 ng/µL product into a strip tube and add 10 µL of 2 µM  8F (or 515F) into one tube, and 10 µL of 2 µM 1543R (or 806RB) into a second. **Do not add forward and reverse primers to the same tube**.
-- [ ] Using GeneWiz account, create a sequencing request for premixed sequencing.
+- [ ] Using GeneWiz account, create a sequencing request for premixed sequencing. Select Sanger Sequencing with the following options: DNA Type = PCR Product - Purefied; Service Type = Premixed; # of Samples = 2 times # of samples (each sample with forward and reverse primers). The order confirmation will include a specified layout of strip tubes or plates for each combination of sample and primer.
+- [ ] For each product: in one tube, place 5 µL of 10 ng/µL product into a strip tube and add 10 µL of 2 µM  8F (or 515F), and in a second tube, another 5 µL of product with 10 µL of 2 µM 1543R (or 806RB). **Do not add forward and reverse primers to the same tube**.
 - [ ] Drop off samples in folder outside labs on 10th floor HSW.
 
 ***
-## 8. Cleaning and interpretting sequence
+## 8. Cleaning and interpreting sequence
 - [ ] When sequence results are available (usually before 8am the following morning), download **.ab1** files.
 - [ ] Using [4 Peaks](https://nucleobytes.com/4peaks/index.html) (mac) or [FinchTV](http://jblseqdat.bioc.cam.ac.uk/gnmweb/download/soft/FinchTV_1.4/doc/) (windows) trim trace to remove any Ns, resolving them by manually inspecting the electropherogram where possible.
 - [ ] Overlap sequences using a program such as [CAP3](http://doua.prabi.fr/software/cap3).
